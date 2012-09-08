@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FastFood</string>
+    <string name="city_select">Select a cuisine...</string>
+    <string name="gps_select">How far are you willing to travel?</string>
+    <string name="ready_set">Ready ... Set ...</string>
+    <string name="go">Screw Specifics</string>
+    <string-array name="cities">
+        <item>steakhouse</item>
+        <item>italian</item>
+        <item>Mexican</item>
+    </string-array>
+    <string name="input_radius">Search in range of 0.5 Miles</string>
+    <string name="restaurant_filler">Waiting for players...</string>
+    <color name="gui_font_color">#7422</color>
+    <string name="City">Select City (opt. state or province)</string>
+    <string name="checkboxtext">Use current gps location</string>
+    <string name="get_criteria">Add Criteria</string>
+    <string name="cuisine_select">Select a cuisine</string>
+    <string name="wildcard">Wild Card</string>
+    <string name="sitin">Sit Down</string>
+    <string name="takeout">Take Out</string>
+    <string name="delivery">Delivery</string>
+    <string name="selecttype">Select Restaurant Type</string>
+    <string name="Go">Return</string>
+    <string name="GoForward">Go</string>
+    <string-array name="types">
+        <item>Dine In</item>
+        <item>Fast Food</item>
+    </string-array>
+    <string-array name="cuisinesDinein">
+        <item>Any</item><item>Afghan</item>
+        <item>American (new)</item>
+        <item>American (traditional)</item>
+        <item>Barbeque</item>
+        <item>Brazilian</item>
+        <item>Breakfast &amp; Brunch</item>
+        <item>Buffets</item>
+        <item>Burgers</item>
+        <item>Cafes</item>
+        <item>Caribbean</item>
+        <item>Chicken Wings</item>
+        <item>Chinese</item>
+        <item>Delis</item>
+        <item>Diners</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hawaiian</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Mexican</item>
+        <item>Pizza</item>
+        <item>Sandwiches</item>
+        <item>Seafood</item>
+        <item>Southern</item>
+        <item>Sushi Bars</item>
+        <item>Thai</item>
+        <item>Vegetarian</item>
+        
+    </string-array>
+    <string-array name="cuisinesFastFood">
+        <item>Any</item><item>Burgers</item>
+        <item>Mexican</item>
+        <item>Breakfast &amp; Brunch</item>
+        <item>Chicken Wings</item>
+        <item>American (new)</item>
+        <item>Pizza</item>
+        <item>Hot Dogs</item>
+        <item>Chinese</item>
+        <item>Thai</item>
+        <item>Sandwiches</item>
+        
+    </string-array>
+    <string-array name="cuisinesDelivery">
+        <item>Any</item><item>Pizza</item>
+        <item>Chinese</item>
+        <item>Sandwiches</item>
+        
+    </string-array>
+    <string name="autostring"></string>
+    <string name="cancel_search">Stop Search</string>
+    <string name="search">Search</string>
+    <string name="reset_criteira">Reset Criteria</string>
+</resources>

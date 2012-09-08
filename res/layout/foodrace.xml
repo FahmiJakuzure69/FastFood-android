@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="@drawable/food_race" android:gravity="center" android:weightSum="1">
+    <LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:gravity="center" android:background="@color/gui_font_color" android:layout_width="286dp" android:layout_height="155dp" android:weightSum="1">
+        <TextView android:textSize="24dp" android:layout_width="wrap_content" android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:id="@+id/restaurant_selection"></TextView>
+        <TextView android:textSize="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="TextView" android:id="@+id/vicinity"></TextView>
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_weight="0.48" android:gravity="center" android:weightSum="1">
+            <Button android:onClick="clickHandler" android:layout_width="wrap_content" android:text="View on Map" android:layout_height="wrap_content" android:layout_weight="0.18" android:id="@+id/view_map"></Button>
+            <Button android:onClick="clickHandler" android:layout_width="wrap_content" android:text="Race Again" android:layout_weight="0.17" android:layout_height="wrap_content" android:id="@+id/race_again"></Button>
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

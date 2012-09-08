@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" android:orientation="vertical"
+    android:id="@+id/searchEngine" android:paddingTop="10dp">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:weightSum="1">
+<!--         <ImageView android:id="@+id/imageView7" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/logo"></ImageView> -->
+        <ImageView android:id="@+id/imageView8" android:layout_height="wrap_content" android:layout_width="255dp" android:src="@drawable/fastfoodlogo"></ImageView>
+        <ImageView android:id="@+id/imageView1" android:src="@drawable/hotdog" android:layout_width="46dp" android:layout_height="55dp"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout3" android:orientation="vertical" android:gravity="center" android:layout_height="100dp">
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="32dp">
+            <ImageView android:id="@+id/imageView3" android:src="@drawable/star" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:text="@string/City" android:gravity="bottom" android:id="@+id/textView2" android:layout_height="match_parent"></TextView>
+        </LinearLayout>
+        <AutoCompleteTextView android:id="@+id/autoCompleteTextView1" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="280dp" android:text="@string/autostring" android:autoText="true">
+            <requestFocus></requestFocus>
+        </AutoCompleteTextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout9" android:orientation="vertical" android:gravity="center">
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout5" android:orientation="vertical" android:gravity="center" android:weightSum="1" android:layout_height="100dp">
+        <LinearLayout android:gravity="bottom" android:id="@+id/linearLayout4" android:layout_width="match_parent" android:weightSum="1" android:layout_height="wrap_content">
+            <ImageView android:layout_weight="0.03" android:layout_width="26dp" android:layout_gravity="bottom" android:id="@+id/imageView4" android:layout_height="wrap_content" android:src="@drawable/star"></ImageView>
+            <TextView android:layout_weight="0.03" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:gravity="bottom" android:id="@+id/textView3" android:layout_height="match_parent" android:text="@string/gps_select"></TextView>
+        </LinearLayout>
+        <SeekBar android:layout_height="wrap_content" android:id="@+id/seekBar1" android:layout_gravity="center" android:layout_width="284dp"></SeekBar>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:id="@+id/linearLayout8" android:gravity="bottom" android:layout_height="24dp">
+            <ImageView android:src="@android:drawable/ic_menu_mylocation" android:id="@+id/imageView6" android:layout_width="25dp" android:layout_height="match_parent"></ImageView>
+            <TextView android:text="@string/input_radius" android:layout_height="match_parent" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView5" android:gravity="bottom"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <CheckBox android:id="@+id/checkBox1" android:layout_width="wrap_content" android:checked="false" android:text="@string/checkboxtext" android:layout_height="wrap_content"></CheckBox>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout12" android:orientation="vertical" android:gravity="center">
+        <LinearLayout android:background="@drawable/rounded_box" android:orientation="vertical" android:id="@+id/linearLayout6" android:layout_width="271dp" android:layout_height="wrap_content">
+            <LinearLayout android:weightSum="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/linearLayout7" android:gravity="center" android:layout_weight="0.08">
+                <Button android:text="@string/get_criteria" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/add_criteria" android:layout_weight="0.19" android:onClick="clickHandler"></Button>
+                <Button android:text="@string/reset_criteira" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/reset_criteria" android:layout_weight="0.13" android:onClick="clickHandler"></Button>
+            </LinearLayout>
+            <LinearLayout android:layout_weight="0.08" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/linearLayout11" android:gravity="center">
+                <TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/criteriaDisplay" android:gravity="center"></TextView>
+            </LinearLayout>
+            <LinearLayout android:layout_weight="0.08" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout10" android:gravity="center">
+                <Button android:text="@string/search" android:layout_width="94dp" android:layout_height="wrap_content" android:id="@+id/search" android:onClick="clickHandler"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

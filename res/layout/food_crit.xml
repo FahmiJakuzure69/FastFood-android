@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1" android:layout_gravity="center" android:paddingTop="10dp">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent" android:weightSum="1">
+        <ImageView android:src="@drawable/fastfoodlogo" android:id="@+id/imageView8" android:layout_height="wrap_content" android:layout_width="255dp"></ImageView>
+        <ImageView android:id="@+id/imageView1" android:layout_height="68dp" android:layout_width="69dp" android:src="@drawable/hamburger"></ImageView>
+        <ImageView android:layout_weight="0.21" android:src="@drawable/icon" android:id="@+id/imageView2" android:layout_height="match_parent" android:layout_width="match_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <LinearLayout android:id="@+id/linearLayout6" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+            <ImageView android:src="@drawable/star" android:id="@+id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.26"></ImageView>
+            <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/selecttype" android:layout_height="wrap_content" android:id="@+id/textView2"></TextView>
+        </LinearLayout>
+        <Spinner android:id="@+id/spinner2" android:layout_gravity="center" android:layout_weight="1" android:layout_width="238dp" android:layout_height="wrap_content" android:entries="@array/types"></Spinner>
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:weightSum="1">
+            <ImageView android:src="@drawable/banana" android:id="@+id/imageView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.16"></ImageView>
+            <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="@string/cuisine_select"></TextView>
+        </LinearLayout>
+        <Spinner android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="236dp" android:id="@+id/spinner1" android:entries="@array/cuisinesDinein"></Spinner>
+    </LinearLayout>
+    <CheckBox android:text="@string/wildcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBox1"></CheckBox>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout5" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center">
+        <LinearLayout android:background="@drawable/rounded_box" android:orientation="vertical" android:id="@+id/linearLayout4" android:gravity="center" android:layout_width="206dp" android:layout_height="wrap_content">
+            <Button android:text="@string/Go" android:onClick="clickHandler" android:layout_width="126dp" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/button1"></Button>
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,3 @@
+3/17/12 * Replaced "On your mark" etc dialogues with a traffic light animation
+3/17/12 * Now gets location updates on startup at first screen for improved GPS accurace 
+		  (may need optimization in the future)
